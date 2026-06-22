@@ -1,0 +1,28 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── Downloaded packs (huge — never commit) ──────────────────────────────
+*.zip
+
+# ── Runtime / temp folders created while updating ───────────────────────
+_extracted/
+_inner/
+_rollback/
+_preserved/
+
+# ── Personal config (auto-generated on first run) ───────────────────────
+config_patches.json
+
+# ── Your personal mods/configs to inject after updates ──────────────────
+# Keep the folder (and its README) in the repo, ignore everything you drop in.
+Additional Files/*
+!Additional Files/README.md
+
+# ── OS cruft ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
